@@ -3,6 +3,13 @@ def main():
     while True:
         start = input('Enter the starting letter: ')
         end = input('Enter the starting letter: ')
+        
+        
+    #check validation of input
+    if len(start) > 1 or len(end) > 1 or not start.isalpha() or not end.isalph():
+        print("input not valid")
+        
+    
 
     """
     ########################################
