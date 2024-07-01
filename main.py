@@ -4,7 +4,7 @@ def main():
         
         result = []
         start = input('Enter the starting letter: ')
-        end = input('Enter the starting letter: ')
+        end = input('Enter the ending letter: ')
         
         
     #check validation of input
@@ -27,6 +27,7 @@ def main():
 
         print(result)
         break
+
 
     return result
 
