@@ -9,6 +9,9 @@ def main():
     if len(start) > 1 or len(end) > 1 or not start.isalpha() or not end.isalph():
         print("input not valid")
         
+    if start > end:
+        print("input not valid")
+        
     
 
     """
