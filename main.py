@@ -1,6 +1,7 @@
 def main():
     
     while True:
+        
         result = []
         start = input('Enter the starting letter: ')
         end = input('Enter the starting letter: ')
@@ -13,6 +14,7 @@ def main():
         
         if start > end:
             print("input not valid")
+            continue
         
     #convert input alphabet into ascii value can be put into range
         start_ascii = ord(start)
@@ -23,7 +25,8 @@ def main():
             result .append(chr(i))
         
 
-    print(result)
+        print(result)
+        break
 
     return result
 
