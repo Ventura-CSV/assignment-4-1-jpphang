@@ -20,19 +20,9 @@ def main():
     for i in range(start_ascii, end_ascii + 1):
         result .append(chr(i))
         
+
     print(result)
 
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-
-    print(*result)
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return result
 
 
