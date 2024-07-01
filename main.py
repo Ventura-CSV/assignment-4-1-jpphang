@@ -12,7 +12,15 @@ def main():
     if start > end:
         print("input not valid")
         
+    #convert input alphabet into ascii value can be put into range
+    start_ascii = ord(start)
+    end_ascii = ord(end)
     
+    #print
+    for i in range(start_ascii, end_ascii + 1):
+        result .append(chr(i))
+        
+    print(result)
 
     """
     ########################################
